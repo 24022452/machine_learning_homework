@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Chặn tất cả các file có đuôi .csv
+*.csv
+
+# Nếu các file csv nằm trong một thư mục tên là 'raw', bạn có thể chặn cả thư mục đó
+raw/
+
+# Chặn các file rác phát sinh khi chạy Jupyter Notebook
+.ipynb_checkpoints/
