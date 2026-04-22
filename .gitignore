@@ -214,3 +214,4 @@ raw/
 
 # Chặn các file rác phát sinh khi chạy Jupyter Notebook
 .ipynb_checkpoints/
+unpadded/
